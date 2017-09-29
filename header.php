@@ -38,7 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 ?>
 
 <meta name="format-detection" content="telephone=no">
-
+<link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
