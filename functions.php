@@ -7,7 +7,7 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
-    wp_enqueue_style('responsive-child',get_stylesheet_directory_uri().'/resources/css/responsive.css',array('child-style'),wp_get_theme()->get('Version'));
+    wp_enqueue_style('responsive-child',get_stylesheet_directory_uri().'/resources/css/responsive.css',array(),wp_get_theme()->get('Version'));
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
