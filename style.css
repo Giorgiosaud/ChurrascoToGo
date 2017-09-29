@@ -23,3 +23,6 @@ Text Domain: churrascotogo
 
 */
 @import url('https://fonts.googleapis.com/css?family=Kristi');
+#menu_wrapper .nav ul li a, #menu_wrapper div .nav li > a{
+	font-size:11px !important;
+}
